@@ -24,6 +24,10 @@ body {
   border: 2px solid red;
 }
 
+.border2 {
+  border: 2px solid blue;
+}
+
 /* header */
 
 header {
@@ -55,6 +59,7 @@ header div {
   background-color: black;
   width: 20rem;
   display: flex;
+  margin-top: 9rem;
 }
 
 .descr {
