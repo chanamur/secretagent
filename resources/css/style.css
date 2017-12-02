@@ -80,12 +80,32 @@ main {
   justify-content: space-between;
 }
 
-
 .products {
   margin-top: 3rem;
   width: 30%;
   border: 4px solid black;
 }
+
+.img-container {
+  height: 9rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.img-container .pen,
+.img-container .watch
+ {
+  max-width: auto;
+  height: 100%;
+  display: block;
+}
+/*
+.img-container .glasses {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+*/
 
 
 
