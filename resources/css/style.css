@@ -101,11 +101,13 @@ main {
 .img-container {
   display: flex;
   justify-content: center;
+  width: 100%;
   height: 9rem;
   margin-top: 2rem;
   margin-bottom: 2rem;
 }
 
+/*
 .img-container .pen,
 .img-container .watch
  {
@@ -113,7 +115,7 @@ main {
   height: 100%;
   display: block;
 }
-/*
+
 .img-container .glasses {
   max-width: 100%;
   height: auto;
@@ -137,6 +139,8 @@ main {
 .location {
   display: flex;
   justify-content: space-between;
+  margin-top: 3rem;
+  margin-bottom: 4rem;
 }
 
 .findus {
@@ -146,6 +150,9 @@ main {
 .coord {
   background-color: black;
   color: white;
+  padding-left: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 
