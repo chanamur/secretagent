@@ -82,6 +82,9 @@ header img {
 
 nav {
   background-color: firebrick;
+}
+
+nav .container {
   display: flex;
   justify-content: space-between;
 }
