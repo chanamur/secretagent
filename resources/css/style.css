@@ -62,22 +62,21 @@ header img {
   height: 25rem;
 }
 
+.container .arrival {
+  position: relative;
+  top: 9rem;
+}
+
 .arrival {
   background-color: black;
   width: 20rem;
-  display: flex;
-  margin-top: 9rem;
+  padding: 2rem 3rem;
 }
 
-.descr {
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-  margin-left: 3rem;
-}
-
-.descr .font1 {
+.arrival .font1 {
   margin-bottom: 0.25rem;
 }
+
 
 /* nav */
 
