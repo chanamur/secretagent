@@ -96,6 +96,10 @@ nav .container {
 
 /* products */
 
+
+
+
+/*
 main .container {
   display: flex;
   justify-content: space-between;
@@ -107,16 +111,17 @@ main .container {
   border: 4px solid black;
 }
 
+main img {
+  height: 9rem;
+}
+
 .img-container {
-  display: flex;
-  justify-content: center;
   width: 100%;
   height: 9rem;
   margin-top: 2rem;
   margin-bottom: 2rem;
 }
 
-/*
 .img-container .pen,
 .img-container .watch
  {
@@ -130,9 +135,6 @@ main .container {
   height: auto;
   display: block;
 }
-*/
-
-
 
 .name {
   background-color: black;
@@ -142,6 +144,8 @@ main .container {
   text-align: center;
 }
 
+*/
+
 
 /* location, hours */
 
@@ -149,7 +153,6 @@ main .container {
   display: flex;
   justify-content: space-between;
   margin-top: 3rem;
-  margin-bottom: 4rem;
 }
 
 .findus {
@@ -169,6 +172,7 @@ main .container {
 /* footer */
 
 footer {
+  margin-top: 4rem;
   background-color: black;
   color: white;
 }
