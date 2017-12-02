@@ -20,15 +20,6 @@ html {
   color: white;
 }
 
-.border {
-  border: 2px solid red;
-}
-
-.border2 {
-  border: 2px solid blue;
-}
-
-
 /* header */
 
 header {
@@ -93,6 +84,10 @@ nav .container {
 .link {
   margin-top: 0.75rem;
   margin-bottom: 0.75rem;
+}
+
+nav .tablet {
+  display: none;
 }
 
 /* products */
@@ -169,4 +164,21 @@ footer .container {
   display: flex;
   align-items: center;
   height: 5rem;
+}
+
+
+/* media queries */
+/* tablet */
+
+/* menu button */
+@media only screen and (max-width: 1024px){
+  nav .link {
+    display: none;
+  }
+  nav .tablet {
+    display: block;
+    text-align: center;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+  }
 }
