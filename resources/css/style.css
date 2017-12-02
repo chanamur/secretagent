@@ -96,7 +96,7 @@ nav .container {
 
 /* products */
 
-main {
+main .container {
   display: flex;
   justify-content: space-between;
 }
@@ -169,9 +169,12 @@ main {
 /* footer */
 
 footer {
-  display: flex;
-  align-items: center;
   background-color: black;
   color: white;
+}
+
+footer .container {
+  display: flex;
+  align-items: center;
   height: 5rem;
 }
