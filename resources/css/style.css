@@ -28,6 +28,7 @@ body {
   border: 2px solid blue;
 }
 
+
 /* header */
 
 header {
@@ -160,6 +161,8 @@ main {
 /* footer */
 
 footer {
+  display: flex;
+  align-items: center;
   background-color: black;
   color: white;
   height: 5rem;
