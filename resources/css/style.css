@@ -3,9 +3,9 @@ html {
   font-family: Helvetica;
 }
 
-body {
+.container {
   margin: 0 auto;
-  width: 960px;
+  max-width: 960px;
 }
 
 .font1 {
@@ -34,8 +34,11 @@ body {
 header {
   background-color: black;
   color: white;
-  display: inline-flex;
-  width: 100%;
+}
+
+header .container {
+  display: flex;
+  align-items: center;
 }
 
 header img {
@@ -43,7 +46,7 @@ header img {
   margin-left: 0.5rem;
 }
 
-header div {
+.company {
   margin-top: 0.66rem;
   margin-bottom: 0.66rem;
   margin-left: 1rem;
@@ -84,7 +87,7 @@ nav {
   justify-content: space-between;
 }
 
-nav div {
+.link {
   margin-top: 0.75rem;
   margin-bottom: 0.75rem;
 }
