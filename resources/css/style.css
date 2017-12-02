@@ -72,6 +72,18 @@ header div {
   margin-bottom: 0.25rem;
 }
 
+/* nav */
+
+nav {
+  background-color: firebrick;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav div {
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+}
 
 /* products */
 
@@ -119,18 +131,24 @@ main {
   text-align: center;
 }
 
-/* nav */
 
-nav {
-  background-color: firebrick;
+/* location, hours */
+
+.location {
   display: flex;
   justify-content: space-between;
 }
 
-nav div {
-  margin-top: 0.75rem;
-  margin-bottom: 0.75rem;
+.findus {
+  width: 35%;
 }
+
+.coord {
+  background-color: black;
+  color: white;
+}
+
+
 
 /* footer */
 
