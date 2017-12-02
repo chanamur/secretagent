@@ -170,8 +170,9 @@ footer .container {
 /* media queries */
 /* tablet */
 
-/* menu button */
+
 @media only screen and (max-width: 1024px){
+  /* menu button */
   nav .link {
     display: none;
   }
@@ -180,5 +181,16 @@ footer .container {
     text-align: center;
     padding-top: 0.75rem;
     padding-bottom: 0.75rem;
+  }
+
+  /* only 2 products */
+  main .glasses {
+    display: none;
+  }
+  .products {
+    width: 47%;
+  }
+  .findus {
+    width: 47%;
   }
 }
