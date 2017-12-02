@@ -75,11 +75,18 @@ header div {
 
 /* products */
 
+main {
+  display: flex;
+  justify-content: space-between;
+}
 
 
 
 
-
+.name {
+  background-color: black;
+  color: white;
+}
 
 /* nav */
 
