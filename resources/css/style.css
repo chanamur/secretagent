@@ -87,6 +87,8 @@ main {
 }
 
 .img-container {
+  display: flex;
+  justify-content: center;
   height: 9rem;
   margin-top: 2rem;
   margin-bottom: 2rem;
