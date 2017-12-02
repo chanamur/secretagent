@@ -50,6 +50,17 @@ header div {
 .arrival {
   background-color: black;
   width: 20rem;
+  display: flex;
+}
+
+.descr {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  margin-left: 3rem;
+}
+
+.descr .font1 {
+  margin-bottom: 0.25rem;
 }
 
 
