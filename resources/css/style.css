@@ -80,6 +80,10 @@ main {
   justify-content: space-between;
 }
 
+main img {
+  height: 9rem;
+}
+
 .products {
   margin-top: 3rem;
   width: 30%;
