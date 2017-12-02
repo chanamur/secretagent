@@ -168,8 +168,7 @@ footer .container {
 
 
 /* media queries */
-/* tablet */
-
+/* tablet queries */
 
 @media only screen and (max-width: 1024px){
   /* menu button */
@@ -191,6 +190,91 @@ footer .container {
     width: 47%;
   }
   .findus {
-    width: 47%;
+    width: 35%;
+  }
+}
+
+/* phone queries */
+@media only screen and (max-width: 470px) {
+  .font1 {
+    font-size: 0.77rem;
+  }
+
+  .font2 {
+    font-size: 1rem;
+  }
+/* header */
+  header .company {
+    display: none;
+  }
+  header {
+    padding-top: 0.66rem;
+    padding-bottom: 0.66rem;
+  }
+  header img {
+    margin: 0 auto;
+  }
+
+/* menu */
+
+nav .font1 {
+  font-size: 1rem;
+}
+
+/* banner */
+  .bike {
+    height: 15rem;
+  }
+
+  .bike .font1 {
+    margin-bottom: 1.23rem;
+  }
+
+  .container .arrival {
+    position: relative;
+    top: 10rem;
+  }
+
+  .arrival {
+    padding: 1rem 2rem;
+  }
+
+/* only 1 product */
+  main .watch {
+    display: none;
+  }
+
+  main .container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3rem;
+  }
+
+  .products {
+    width: 90%;
+  }
+
+/* stack */
+
+  .location .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .findus {
+    width: 90%;
+  }
+
+  .hours {
+    margin-top: 0.5rem;
+  }
+
+/* footer centered */
+  footer .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5rem;
   }
 }
